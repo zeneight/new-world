@@ -86,7 +86,7 @@ border-top-color: #f9c922; /* Chrome, Opera 15+, Safari 5+ */ -webkit-animation:
 
 body {
 	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-size: 18px;
+	font-size: 14px;
 	font-weight: 300;
 }
 
@@ -163,7 +163,7 @@ p {	line-height: 1.5; }
     text-align: center;
     background-color: #cccccc;  
     height: 60px;
-    font-size: 1.4rem;
+    font-size: 1rem;
     display: -ms-flexbox;
     display: -webkit-box;
     display: -webkit-flex;
@@ -761,7 +761,7 @@ button:focus { outline: none; }
 	color: #494949;
     border-color: #999999;
     border-radius: 0;
-    padding: 1rem 1.5rem;
+    padding: 5px 10px;
 	margin-bottom: 15px;
 }
 
@@ -789,7 +789,7 @@ button:focus { outline: none; }
 .form-control,
 .tm-submit-btn,
 .tm-search-btn {
-	font-size: 1.4rem;
+	font-size: 1rem;
 	font-weight: 300;
 	width: 100% !important;
 }
@@ -941,7 +941,7 @@ button:focus { outline: none; }
 	}
 
 	.navbar-nav .nav-item {
-		height: 80px;
+		height: 40px;
 		max-width: 249px; 
 	}
 

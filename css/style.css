@@ -1336,3 +1336,9 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 		color: #fff;
 		background-color: #007bff;
 	}
+	.list-group-item, .list-group-item.active {
+		border-radius: 0;
+	}
+	.menu-detail {
+		display: table;
+	}

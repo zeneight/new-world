@@ -161,7 +161,8 @@ p {	line-height: 1.5; }
     max-width: none;
     width: 50%;
     text-align: center;
-    background-color: #cccccc;  
+    /* background-color: #cccccc; */
+	background-color: #2f2d2d;
     height: 60px;
     font-size: 1rem;
     display: -ms-flexbox;
@@ -189,7 +190,8 @@ p {	line-height: 1.5; }
 
 .navbar-nav .nav-item.active,
 .navbar-nav .nav-item:hover {
-	background-color: #999999;
+	/* background-color: #999999; */
+	background-color: #1b7f77;
 }
 
 .navbar-nav .nav-item.tm-dummy-nav-item:hover {
@@ -198,7 +200,7 @@ p {	line-height: 1.5; }
 }
 
 .nav-link {
-	color: #555555;
+	color: #fff;
 	cursor: pointer;
 }
 
@@ -1248,21 +1250,21 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
   /* END .icon */
   .unit {
 	position: absolute;
-	background: #fff;
+	background: #1b8078;
 	font-size: 35%;
 	text-decoration: none;
 	width: 105px;
 	height: 105px;
 	line-height: 105px;
-	color: #1b555f;
+	color: #fff;
 	border-radius: 50%;
 	transition: 0.6s;
-	border: 2px solid #1b555f;
+	border: 2px solid #1b8078;
   }
 
   .unit:hover {
 	color: #fff;
-	background: #0066cb;
+	background: #db7b3f;
   }
   
   /* Just CodePen layout stuff: */
@@ -1336,7 +1338,7 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 	}
 	.badge-primary {
 		color: #fff;
-		background-color: #007bff;
+		background-color: #1cb3a5;
 	}
 	.list-group-item, .list-group-item.active {
 		border-radius: 0;
@@ -1350,9 +1352,23 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 		top: -50px;
 	}
 	.navbar-nav .nav-item.active, .navbar-nav .nav-item.none:hover {
-		background-color: #cccccc;
+		/* background-color: #cccccc; */
+		background-color: #2f2d2d;
 	}
 	a {
 		color: #1c8178;
 		text-decoration: none;
+	}
+	.tm-blue-text {
+		color: #1cb3a5;
+	}
+	.btn-info, .btn-primary {
+		color: #fff;
+		background-color: #1b8078;
+		border-color: #1b8078;
+	}
+	.btn-info:hover, .btn-primary:hover {
+		color: #fff;
+		background-color: #1cb3a5;
+		border-color: #1cb3a5;
 	}

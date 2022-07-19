@@ -612,6 +612,8 @@ button:focus { outline: none; }
 	display: block;
 	padding-left: 5%;
     padding-right: 5%;
+	font-size: 105%;
+	font-weight: bold;
 }
 
 .tm-tab-link.active .tm-tab-icon,
@@ -1125,7 +1127,7 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 .icon {
 	position: relative;
 	background: #fff;
-	border: 1px solid #000;
+	/* border: 1px solid #000; */
 	cursor: pointer;
 	margin: auto;
 	color: #000;
@@ -1341,4 +1343,9 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 	}
 	.menu-detail {
 		display: table;
+	}
+	.bunderan img {
+		position: relative;
+		left: -50px;
+		top: -50px;
 	}

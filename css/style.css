@@ -1298,14 +1298,14 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 		position: absolute;
 		width: 100%;
 		left: 0;
-		line-height: 1;
+		line-height: 1.2;
 		top: 35px;
 	}
 
 	.tm-services-row img {
 		height: 250px;
 	}
-	.tm-services-row img.detail {
+	.tm-services-row.detail img {
 		height: auto;
 	}
 	.no-margin {
@@ -1314,6 +1314,10 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 	.breadcrumb {
 		background: none;
 		padding-left: 0;
+	}
+	.breadcrumb a {
+		text-decoration: underline;
+		text-underline-position: under;
 	}
 	.country-text {
 		font-weight: bold;

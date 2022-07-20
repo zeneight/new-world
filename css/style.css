@@ -1415,6 +1415,9 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 		letter-spacing: 4px;
 		margin-bottom: 25px;
 	}
+	.display-mobile {
+		display: none;
+	}
 
 
 	/* logo utama */
@@ -1437,6 +1440,9 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 		}
 		.nav-item.none {
 			display: none;
+		}
+		.display-mobile {
+			display: block !important;
 		}
 	}
 

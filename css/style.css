@@ -1420,11 +1420,11 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 	/* logo utama */
 	@media (max-width: 770px) {
 		.icon {
-			scale: 0.7 !important;
-			-webkit-transform: scale(0.7);
-			-moz-transform: scale(0.7);
-			-o-transform: scale(0.7);
-			transform: scale(0.7);
+			scale: 0.6 !important;
+			-webkit-transform: scale(0.6);
+			-moz-transform: scale(0.6);
+			-o-transform: scale(0.6);
+			transform: scale(0.6);
 			top: 15%;
 		}
 		.img-logo {

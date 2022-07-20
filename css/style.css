@@ -1428,6 +1428,9 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 			top: 15%;
 			margin-bottom: 15px !important;
 		}
+		.bunderan {
+			min-height: unset !important;
+		}
 		.img-logo {
 			margin-bottom: 25px;
 			text-align: center;

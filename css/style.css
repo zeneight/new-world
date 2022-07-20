@@ -1426,6 +1426,7 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 			-o-transform: scale(0.6);
 			transform: scale(0.6);
 			top: 15%;
+			margin-bottom: 15px !important;
 		}
 		.img-logo {
 			margin-bottom: 25px;

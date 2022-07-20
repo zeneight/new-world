@@ -1305,8 +1305,13 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 	.tm-services-row img {
 		height: 250px;
 	}
+	.tm-services-row.list img {
+		object-fit: cover;
+		width: 100%;
+	}
 	.tm-services-row.detail img {
-		height: auto;
+		height: 215px;
+		object-fit: cover;
 	}
 	.no-margin {
 		margin: 0;
@@ -1314,6 +1319,7 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 	.breadcrumb {
 		background: none;
 		padding-left: 0;
+		font-weight: bold;
 	}
 	.breadcrumb a {
 		text-decoration: underline;
@@ -1322,6 +1328,7 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 	.country-text {
 		font-weight: bold;
 		margin: 0;
+		font-size: 17px;
 	}
 	.tm-services-box .col-md-6 {
 		/* padding: 0; */
@@ -1375,4 +1382,59 @@ http://stackoverflow.com/questions/11173106/apply-style-only-on-ie */
 		color: #fff;
 		background-color: #1cb3a5;
 		border-color: #1cb3a5;
+	}
+	.action-image img {
+		border: 6px dashed #1b8078;
+		border-radius: 80%;
+		width: 250px;
+		height: 250px;
+		object-fit: cover;
+		padding: 8px;
+	}
+	.action-image {
+		text-align: center;
+	}
+	.bg-image {
+		background: url('../img/action-bg.jpg') no-repeat center center fixed; 
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover;
+	}
+	.bg-image h3, .text-tengah h3 {
+		margin: 15px 0;
+		font-weight: bold;
+		color: #1b8078;
+	}
+	.bg-image h3 span, .text-tengah h3 span {
+		box-shadow: 10px 0 0px 0px #EDC330, -10px 0 0px 0px #EDC330;
+		background-color: #EDC330;
+		line-height:2;
+	}
+	.text-tengah h3 {
+		letter-spacing: 4px;
+		margin-bottom: 25px;
+	}
+
+
+	/* logo utama */
+	@media (max-width: 770px) {
+		.icon {
+			scale: 0.7 !important;
+			top: 15%;
+		}
+		.img-logo {
+			margin-bottom: 25px;
+			text-align: center;
+		}
+		.nav-item.none {
+			display: none;
+		}
+	}
+
+	.bg-image .tm-services-row .col-xs-12 {
+		margin-bottom: 45px;
+	}
+	.tm-services-box .col-md-6 {
+		margin-bottom: 15px;
 	}
